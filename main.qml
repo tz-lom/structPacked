@@ -10,6 +10,9 @@ StructurePacker {
     Structure {
         name: 'DataBlockDouble'
 
+        Int32 { name: 'a' }
+        Int32 { name: 'b' }
+
     }
 
 }

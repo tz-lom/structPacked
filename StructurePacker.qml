@@ -4,14 +4,11 @@ Item {
 
     property var namespace;
 
-    function pprint(txt){
-        console.log(txt);
-    }
-
     Component.onCompleted: {
 
-        print(namespace);
-        print(data.length);
+        for(var st in children){
+            console.log(st)
+        }
 
         Qt.quit()
     }
